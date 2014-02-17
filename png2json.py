@@ -2,7 +2,7 @@
 """
 png2json
 
-This script takes a TagPro map PNG file and generates a starter
+This script takes a TagPro map PNG file and outputs starter
 JSON with the x, y locations of all buttons, gates and portals
 pre-filled.
 """
@@ -30,7 +30,7 @@ DEFAULTS = {
         }
 
 def usage():
-    print 'Usage: {} PNG'.format(sys.argv[0])
+    print 'Usage: {} PNG > JSON'.format(sys.argv[0])
 
 
 class Map():
